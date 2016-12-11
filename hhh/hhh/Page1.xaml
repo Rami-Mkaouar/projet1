@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hhh.Page1">
+ <StackLayout Padding="0,100,0,0" 
+              BackgroundColor="#2196F3"
+              VerticalOptions="FillAndExpand"
+              Spacing="20"
+  >
+   
+       <Label Text="Login to your account " TextColor="White" HorizontalOptions="Center"></Label>
+   <StackLayout> 
+     <Entry Placeholder="user name" TextColor="Black" x:Name="e1"></Entry>
+     <Entry Placeholder="password" IsPassword="True" TextColor="Black" x:Name="e2"></Entry>
+   </StackLayout>
+   <StackLayout Spacing="30" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+     <Button Text="Cancel" BackgroundColor="White" TextColor="Black"  BorderRadius="15"
+             BorderWidth="2" WidthRequest="150" HeightRequest="40"></Button>
+     
+     <Button Text="LogIn" BackgroundColor="Orange" TextColor="White" BorderRadius="15" 
+             BorderWidth="2" WidthRequest="150" HeightRequest="40" Clicked="Button_OnClicked"> </Button>
+
+
+   </StackLayout>
+   <Label Text="Forget ??" HorizontalOptions="Center" VerticalOptions="End"></Label>
+   <Button x:Name="wrong" Text="Forget your apssword" BackgroundColor="Transparent" TextColor="White" ></Button>
+</StackLayout>
+</ContentPage>
