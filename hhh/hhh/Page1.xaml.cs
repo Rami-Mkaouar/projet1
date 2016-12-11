@@ -37,7 +37,7 @@ namespace hhh
             else
             {
                 await Navigation.PushAsync(new Page3());
-                wrong.TextColor = Color.White;
+                wrong.TextColor = Color.Red;
 
             }
         }
