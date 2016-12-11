@@ -14,7 +14,7 @@
      <Entry Placeholder="password" IsPassword="True" TextColor="Black" x:Name="e2"></Entry>
    </StackLayout>
    <StackLayout Spacing="30" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-     <Button Text="Cancel" BackgroundColor="White" TextColor="Black"  BorderRadius="15"
+     <Button Text="Cancel" BackgroundColor="Fuchsia" TextColor="Black"  BorderRadius="15"
              BorderWidth="2" WidthRequest="150" HeightRequest="40"></Button>
      
      <Button Text="LogIn" BackgroundColor="Orange" TextColor="White" BorderRadius="15" 
